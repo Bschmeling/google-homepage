@@ -48,11 +48,6 @@ input[type=text]:hover {
     width: 500px;
 }
 
-navbar {
-    position: fixed;
-    top: 0;
-}
-
 .navitem {
     list-style: none;
     margin: 5px;
@@ -73,4 +68,11 @@ li.left {
 
 li.right {
     float: right;   
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
 }
